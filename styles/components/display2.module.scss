@@ -1,0 +1,13 @@
+.display2 {
+  background: url(../../public/home/tablet/image-speaker-zx7.jpg);
+  background-size: cover;
+  min-height: 30rem;
+  background-position: right;
+
+  @media (max-width: 750px) {
+    background: url(../../public/home/mobile/image-speaker-zx7.jpg);
+    background-position: right;
+    background-size: cover;
+    // height: 35rem;
+  }
+}

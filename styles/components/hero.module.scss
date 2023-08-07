@@ -1,0 +1,16 @@
+.hero {
+  background-image: url("../../public/home/desktop/image-hero.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &.mobile {
+    background: url("../../public//home/mobile/image-header.jpg"), #1a1a1a;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+  }
+}

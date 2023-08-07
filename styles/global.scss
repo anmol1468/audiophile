@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.button1 {
+  background-color: #d87d4a;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  transition: all 0.2s ease-out;
+
+  &:hover {
+    background-color: #fbaf85;
+  }
+}
+
+.button2 {
+  background-color: #000000;
+  padding: 0.7rem 1.4rem;
+  font-size: 0.9rem;
+  color: #dfdfdf;
+  letter-spacing: 1px;
+  transition: all 0.2s ease-out;
+
+  &:hover {
+    background-color: #4c4c4c;
+  }
+}
+
+.button3 {
+  background-color: transparent;
+  padding: 0.7rem 1.4rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #000000;
+  border: 2px solid #000000;
+  letter-spacing: 1px;
+  max-width: fit-content;
+  transition: all 0.2s ease-out;
+
+  &:hover {
+    color: #ffffff;
+    background-color: #000000;
+  }
+}
+
+.rings-bg {
+  background: url("../public/home/desktop/pattern-circles.svg"), #d87d4a;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+
+  &.desktop {
+    background-position: 17.5% 10%;
+  }
+}
