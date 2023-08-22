@@ -37,7 +37,7 @@ function Info() {
     <div className="flex flex-col md:flex-row-reverse px-8 py-16 justify-center text-center">
       <div className="md:w-1/2">
         <Image
-          className="rounded-lg"
+          className="rounded-lg md:w-screen"
           src={srcImg}
           height={"100%"}
           width={"100%"}

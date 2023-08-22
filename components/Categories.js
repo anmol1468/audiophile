@@ -8,7 +8,7 @@ import earphones from "@/public/shared/desktop/image-category-thumbnail-earphone
 function Categories() {
   return (
     <div className="w-full flex flex-col sm:flex-row justify-between items-center text-center px-20 py-8">
-      <div className="bg-gray-100 mt-28 sm:mx-2 p-4 w-full flex flex-col items-center rounded-xl">
+      <div className="bg-gray-100 mt-28 sm:mx-2 p-2 w-full flex flex-col items-center rounded-xl">
         <Image
           className="-mt-24 "
           src={headphones}
@@ -21,7 +21,7 @@ function Categories() {
           SHOP <span className="text-primary">&#62;</span>
         </Link>
       </div>
-      <div className="bg-gray-100 mt-28 sm:mx-2 p-4 w-full flex flex-col items-center rounded-xl">
+      <div className="bg-gray-100 mt-28 sm:mx-2 p-2 w-full flex flex-col items-center rounded-xl">
         <Image
           className="-mt-24 "
           src={speakers}
@@ -34,7 +34,7 @@ function Categories() {
           SHOP <span className="text-primary">&#62;</span>
         </Link>
       </div>
-      <div className="bg-gray-100 mt-28 sm:mx-2 p-4 w-full flex flex-col items-center rounded-xl">
+      <div className="bg-gray-100 mt-28 sm:mx-2 p-2 w-full flex flex-col items-center rounded-xl">
         <Image
           className="-mt-24 "
           src={earphones}

@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import styles from "@/styles/components/hero.module.scss";
+import Link from "next/link";
 
 function Hero() {
   // State to keep track of the mobile width
@@ -31,13 +32,15 @@ function Hero() {
       } text-white flex flex-col justify-center items-center sm:items-start text-center sm:text-left px-20`}
     >
       <div className="sm:w-1/2">
-        <p className="text-gray-400">NEW PRODUCT</p>
+        <p className="text-gray-400 tracking-super-wide">NEW PRODUCT</p>
         <h1 className="text-5xl font-bold pt-4">XX99 MARK II HEADPHONES</h1>
         <p className="text-gray-300 py-5 tracking-wide">
           Experience natural, lifelike audio and exceptional build quality made
           for the passionate music enthusiast.
         </p>
-        <button className="button1">SEE PRODUCT</button>
+        <Link href="/xx99-mark-two-headphones">
+          <button className="button1">SEE PRODUCT</button>
+        </Link>
       </div>
     </div>
   );

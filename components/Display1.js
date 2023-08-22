@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import speakerImage from "@/public/home/desktop/image-speaker-zx9.png";
 import Image from "next/image";
+import Link from "next/link";
 
 function Display1() {
   // State to keep track of the mobile width
@@ -44,7 +45,9 @@ function Display1() {
           Upgrade to premium speakers that are phenomenally built to deliver
           truly remarkable sound.
         </p>
-        <button className="button2 mt-6">SEE PRODUCT</button>
+        <Link href={"/zx9-speaker"}>
+          <button className="button2 mt-6">SEE PRODUCT</button>
+        </Link>
       </div>
     </div>
   );

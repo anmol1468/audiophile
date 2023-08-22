@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
-function Layout({ children }) {
+function Layout(props) {
+  const [cart, setCart] = useState([]);
+
   return (
-    <div>
-      <Navbar />
-      {children}
+    <div cart={cart} setCart={setCart}>
+      <Navbar main={props.main} />
+      {props.children}
       <Footer />
     </div>
   );

@@ -9,7 +9,7 @@ import {
 function Footer() {
   return (
     <div className="bg-almost_black text-almost_white flex flex-col items-center sm:items-start text-center sm:text-start py-10 px-5">
-      <div className="flex flex-col md:flex-row md:items-center">
+      <div className="flex flex-col md:flex-row md:items-center md:justify-between md:w-full">
         <Link href="/">
           <h4 className="font-bold text-2xl pb-8">audiophile</h4>
         </Link>

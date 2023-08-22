@@ -4,6 +4,7 @@
 
 body {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 * {
@@ -15,6 +16,7 @@ body {
 .button1 {
   background-color: #d87d4a;
   padding: 0.5rem 1rem;
+  color: #ffffff;
   font-size: 1rem;
   letter-spacing: 1px;
   transition: all 0.2s ease-out;
@@ -63,4 +65,43 @@ body {
   &.desktop {
     background-position: 17.5% 10%;
   }
+}
+
+.tracking-super-wide {
+  letter-spacing: 10px;
+}
+
+.expand-image {
+  width: 100%;
+}
+
+// code for taking out those arrows in input type=number
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+// code for make input box border orange when active
+
+input {
+  border: 1px solid rgb(170, 169, 169);
+  width: 100%;
+  max-width: 24rem;
+
+  &:focus {
+    border: 1px solid #d87d4a;
+  }
+}
+
+///////////////
+
+.height-fit {
+  height: fit-content;
 }

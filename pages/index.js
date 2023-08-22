@@ -9,7 +9,7 @@ import Info from "@/components/Info";
 
 function index() {
   return (
-    <Layout className="">
+    <Layout main={true}>
       <Hero />
       <Categories />
       <Display1 />
